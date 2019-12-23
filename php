@@ -1,4 +1,4 @@
-Local File Inclusion / Path Traversal
+LFI/RFI / Path Traversal
 
 !-- 
 
