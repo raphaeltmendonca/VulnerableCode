@@ -1,4 +1,4 @@
-----< LFI/RFI / Path Traversal >----
+----< LFI/RFI >----
 
 !-- 
 
